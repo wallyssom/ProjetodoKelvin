@@ -21,6 +21,7 @@ body{
   justify-content: center;
 }
 
+
 .carta{
   transform-style: preserve-3d;
   min-height: 650px;
@@ -48,13 +49,14 @@ body{
   z-index: 1;
 }
 
-.info h1{
+.info h1 span{
   font-size: 40px;
   margin-top: 50px;
+  border-bottom: 3px solid black;
 }
 .info h3{
   font-size: 25px;
   margin-bottom: 50px;
-  color: grey;
+  color:blue;
   font-weight: lighter;
 }
